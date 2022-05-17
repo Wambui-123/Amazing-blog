@@ -17,6 +17,7 @@ mail = Mail()
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(Config)
+    app.config['SECRET_KEY'] = 'any secret string'
 
     db.init_app(app)
     bcrypt.init_app(app)
@@ -32,4 +33,4 @@ def create_app(config_class=Config):
     app.register_blueprint(main)
     app.register_blueprint(errors)
 
-    return 
+    return app
