@@ -24,6 +24,7 @@ The user would like to.... :
 * flask v2 and above
 * gunicorn
 * bootstrap
+* SQlAlchemy
 
 #### Cloning
 
