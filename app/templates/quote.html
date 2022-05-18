@@ -6,13 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Macondo">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Blog Quotes</title>
 </head>
 <body>
-      <h3 style="color: #000; font-size:22px; font-weight:bold"> {{ quote }} </h3>
-      <h2 style="font-family: cursive; color:#ffff;margin-left:18rem;margin-top:2rem" >{{ author }}</h2>
-   <a href="{{ url_for('main.quote') }}" class="block refresh round" style="text-decoration: none; font-size:25px;">refresh</a>
+      <h3 style="font-family: Macondo; color: #000; font-size:30px; font-weight:bold"> {{ quote }} </h3>
+      <h2 style="font-family: Koulen; color:#ffff;margin-left:18rem;margin-top:2rem" >{{ author }}</h2>
+      <button style="margin-left:18rem;margin-top:2rem"><a href="{{ url_for('main.quote') }}" style="text-decoration: none; font-size:25px; color: #000;">Reload</a></button> 
 </body>
 </html> 
 {% endblock %}

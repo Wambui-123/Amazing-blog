@@ -17,7 +17,7 @@ mail = Mail()
 def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(Config)
-    app.config['SECRET_KEY'] = 'any secret string'
+    app.config['SECRET_KEY'] = '3d6cac033c8ac7a61596f7c9cd9670b4'
 
     db.init_app(app)
     bcrypt.init_app(app)

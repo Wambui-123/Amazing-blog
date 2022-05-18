@@ -1,7 +1,7 @@
 body {
-    background: #ff00cc;  
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
-    background: linear-gradient(to right, #333399, #ff00cc);  
+    background-image:url('https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80');   
+    /* background: -webkit-linear-gradient(to right, #333399, #ff00cc);   */
+    /* background: linear-gradient(to right, #333399, #ff00cc);   */
     background-size: cover;
     height: 180vh; 
     background-attachment: scroll;
@@ -33,7 +33,7 @@ body {
     background: #ffffff;
     padding: 10px 20px;
     border: 1px solid #dddddd;
-    border-radius: 3px;
+    border-radius: 10%;
     margin-bottom: 20px;
   }
   
