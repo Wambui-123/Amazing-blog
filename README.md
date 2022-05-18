@@ -14,7 +14,7 @@ The user would like to.... :
 +  see the image, description and the time a news article was created.
 + click on an article and read the full article on the source website.
 
-## [Demo](https://news-galaxy.herokuapp.com/) click to view
+## [Demo](https://amazinggggggg.herokuapp.com/quote) click to view
 
 
 ## Installation / Setup instruction
