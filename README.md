@@ -4,15 +4,15 @@
 Yvonne Muthui
 
 # Description
-A flask application that has people can post, delete and comment on blogs.
+A flask application that has people can post, delete and comment on blogs that they desire from there own account and can view for others as well. It also auto generates quotes every time you login in to your blog.
 
 
 ## User Story ( BDD ) 
 The user would like to.... :
-+  to see various news sources on the homepage of the application.
-+ select a news source and see all news articles from the selected news source in the application.
-+  see the image, description and the time a news article was created.
-+ click on an article and read the full article on the source website.
++  to see various blogs on the homepage of the application.
++  see all blogs that have been posted by me and others in the application.
++  update my profile.
++  delete a post i no longer want.
 
 ## [Live Link](https://amazinggggggg.herokuapp.com/quote) click to view
 
@@ -21,7 +21,7 @@ The user would like to.... :
 
 #### The application requires the following installations to operate 
 * python3
-* flask v2 and above
+* flask
 * gunicorn
 * bootstrap
 * SQlAlchemy
