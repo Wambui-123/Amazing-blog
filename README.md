@@ -4,7 +4,7 @@
 Yvonne Muthui
 
 # Description
-A flask application that has updated news for anyone to view and read at any given time. It has been created by the use of <a href="doc:introduction" target="_blank">Introduction</a>
+A flask application that has people can post, delete and comment on blogs.
 
 
 ## User Story ( BDD ) 
@@ -14,7 +14,7 @@ The user would like to.... :
 +  see the image, description and the time a news article was created.
 + click on an article and read the full article on the source website.
 
-## [Demo](https://news-galaxy.herokuapp.com/) click to view
+## [Live Link](https://amazinggggggg.herokuapp.com/quote) click to view
 
 
 ## Installation / Setup instruction
@@ -24,6 +24,7 @@ The user would like to.... :
 * flask v2 and above
 * gunicorn
 * bootstrap
+* SQlAlchemy
 
 #### Cloning
 
